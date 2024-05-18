@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "@emotion/styled";
+import { TawkContext } from "../providers";
 const FooterContainer = styled.footer`
   background: #24262b;
   text-align: center;
@@ -37,6 +38,7 @@ const MyLink = styled.a`
   }
 `;
 const Footer = () => {
+  const { tawkMessenger } = React.useContext(TawkContext);
   const scrollTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
@@ -79,7 +81,7 @@ const Footer = () => {
           <a
             target="_blank"
             rel="noreferrer"
-            href="tel:+17807163338"
+            href="tel:+13065413358"
             aria-label="phone"
           >
             <Icon className="bi bi-telephone" />
@@ -95,7 +97,13 @@ const Footer = () => {
         </div>
         <div className="p-3 d-flex flex-column flex-md-row justify-content-center align-items-center">
           <Footerlink href="#About">About</Footerlink>
-          <Footerlink href="/terms">Terms & Conditions</Footerlink>
+          <Footerlink
+            onClick={() => {
+              tawkMessenger.toggle();
+            }}
+          >
+            Book Now
+          </Footerlink>
           <Footerlink href="#Packages">Packages</Footerlink>
           <Footerlink href="#Services">Services</Footerlink>
           <Footerlink onClick={scrollTop}>Back To Top</Footerlink>

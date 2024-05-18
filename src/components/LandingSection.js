@@ -41,8 +41,10 @@ const SloganPortfolio = () => {
     <>
       <div className="container text-center">
         <Overlay className="shadow">
-          <Slogan>125 9704 39 Ave NW, Edmonton, AB T6E 6M7 <br/>Call: 780 716 3338</Slogan>
-          
+        <Slogan>
+            Regina, SK Canada <br />
+            <div style={{fontSize:"15px", fontWeight:"500"}}>**Pick Up/Delivery or Drop Off/Pick up**</div>
+          </Slogan>
         </Overlay>
       </div>
     </>
@@ -69,8 +71,8 @@ const Masthead = styled.div`
     min-height: 40rem;
     padding-top: 4.5rem;
     padding-bottom: 0;
-    margin-left: 45px;
-    margin-right: 45px;
+    margin-left: 75px;
+    margin-right: 75px;
   }
   @media (max-width: 730px) {
     height: 35vh;
@@ -98,7 +100,6 @@ const LandingSection = () => {
     <>
       <Masthead>
         <div className="container">
-          <Headliner>"Supreme Shine Detailing: <br/> Where Cleanliness Meets Perfection"</Headliner>
           <SloganPortfolio />
         </div>
       </Masthead>
