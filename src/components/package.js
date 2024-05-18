@@ -1,16 +1,16 @@
 import React from "react";
 import { styled } from "styled-components";
 import Checkmark from "../images/checkmark.png";
-const PackageTitle = styled.div`
-  font-size: 12pt;
-  color: white;
+// const PackageTitle = styled.div`
+//   font-size: 12pt;
+//   color: white;
 
-  margin-bottom: 50px;
+//   margin-bottom: 50px;
 
-  @media screen and (max-width: 767px) {
-    margin-bottom: 20px;
-  }
-`;
+//   @media screen and (max-width: 767px) {
+//     margin-bottom: 20px;
+//   }
+// `;
 const SectionHeading = styled.div`
   padding-top: 80px;
   font-size: 35pt;
@@ -272,7 +272,7 @@ const Pricing = () => {
                 </PricingFeatures>
               </div>
             </PricingCard>
-            <Note>$599 for 7 seater</Note>
+            <Note>$699 for 7 seater</Note>
           </PricingColumn>
 
           <PricingColumnCenter className="col-lg-4">
@@ -315,7 +315,7 @@ const Pricing = () => {
                 </PricingFeaturesCenter>
               </div>
             </PricingCardCenter>
-            <Note>$899 for 7 seater</Note>
+            <Note style={{color:"lightgray"}}>$999 for 7 seater</Note>
           </PricingColumnCenter>
 
           <PricingColumn className="col-lg-4">
@@ -374,12 +374,6 @@ const Pricing = () => {
               <div className="row">
                 <PricingFeatures className="col">
                   <Check alt="Checkmark" src={Checkmark} />
-                  Headliner shampoo
-                </PricingFeatures>
-              </div>{" "}
-              <div className="row">
-                <PricingFeatures className="col">
-                  <Check alt="Checkmark" src={Checkmark} />
                   All glass surface clean (inside)
                 </PricingFeatures>
               </div>{" "}
@@ -397,7 +391,7 @@ const Pricing = () => {
               </div>
               <br />
             </PricingCard>
-            <Note>$999 for 7 seater</Note>
+            <Note>$1099 for 7 seater</Note>
           </PricingColumn>
         </div>
       </div>

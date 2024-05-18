@@ -232,7 +232,7 @@ const PricingWash = () => {
               </div>
               <div className="row">
                 <PricingCost className="col">
-                  $499 <PricingCostSpan>/Starting</PricingCostSpan>
+                  $149 <PricingCostSpan>/Starting</PricingCostSpan>
                 </PricingCost>
               </div>
               <div className="row">
@@ -290,7 +290,7 @@ const PricingWash = () => {
                 </PricingFeatures>
               </div>
             </PricingCard>
-            <Note>$599 for 7 seater</Note>
+            <Note>$179 for 7 seater</Note>
           </PricingColumn>
 
           <PricingColumnCenter className="col-lg-4">
@@ -305,7 +305,7 @@ const PricingWash = () => {
               </div>
               <div className="row">
                 <PricingCostCenter className="col">
-                  $799 <PricingCostSpan>/Starting</PricingCostSpan>
+                  $189 <PricingCostSpan>/Starting</PricingCostSpan>
                 </PricingCostCenter>
               </div>
               <div className="row">
@@ -339,7 +339,7 @@ const PricingWash = () => {
                 </PricingFeaturesCenter>
               </div>
             </PricingCardCenter>
-            <Note>$899 for 7 seater</Note>
+            <Note style={{color:"lightgray"}}>$209 for 7 seater</Note>
           </PricingColumnCenter>
 
           <PricingColumn className="col-lg-4">
@@ -349,12 +349,12 @@ const PricingWash = () => {
               </div>
               <div className="row">
                 <PricingCost className="col">
-                  $899 <PricingCostSpan>/Starting</PricingCostSpan>
+                  $249 <PricingCostSpan>/Starting</PricingCostSpan>
                 </PricingCost>
               </div>
               <div className="row">
                 <PricingCoverage className="col">
-                Ideal for a smoother exterior with added engine cleaning.
+                Ideal for a shiny exterior with added protection for your vehicle.
                 </PricingCoverage>
               </div>
               <hr />
@@ -373,12 +373,24 @@ const PricingWash = () => {
               <div className="row">
                 <PricingFeatures className="col">
                   <Check alt="Checkmark" src={Checkmark} />
+                  Underbody rinse
+                </PricingFeatures>
+              </div>
+              <div className="row">
+                <PricingFeatures className="col">
+                  <Check alt="Checkmark" src={Checkmark} />
                   Clay bar treatment
+                </PricingFeatures>
+              </div>
+              <div className="row">
+                <PricingFeatures className="col">
+                  <Check alt="Checkmark" src={Checkmark} />
+                  Exterior Hand Wax
                 </PricingFeatures>
               </div>
               <br />
             </PricingCard>
-            <Note>$999 for 7 seater</Note>
+            <Note>$269 for 7 seater</Note>
           </PricingColumn>
         </div>
       </div>

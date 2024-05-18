@@ -72,6 +72,7 @@ const AddOn = () => {
           <AddonList texts={["Engine Shampoo"]} price={["$50 - $60"]} />
           <AddonList texts={["Toddler Seat Clean"]} price={["$20"]} />
           <AddonList texts={["Odor Removal"]} price={["$50"]} />
+          <AddonList texts={["Underbody rinse"]} price={["$30"]} />
           <AddonList
             texts={["Seats & Carpet Shampoo Only"]}
             price={["$75 - $90"]}

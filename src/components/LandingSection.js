@@ -86,22 +86,22 @@ const Masthead = styled.div`
     height: 35vh;
   }
 `;
-const Headliner = styled.div`
-  font-size: 25px;
-  color: white;
-  font-style: italic;
-  text-align: center;
-  top: 50%; 
-  left: 50%; 
-  transform: translate(-100%, -50%);
-  position: absolute;
+// const Headliner = styled.div`
+//   font-size: 25px;
+//   color: white;
+//   font-style: italic;
+//   text-align: center;
+//   top: 50%; 
+//   left: 50%; 
+//   transform: translate(-100%, -50%);
+//   position: absolute;
 
-   @media (max-width: 730px) {
-    font-size: 16px;
-  }
+//    @media (max-width: 730px) {
+//     font-size: 16px;
+//   }
     
   
-`
+// `
 
 const LandingSection = () => {
   return (

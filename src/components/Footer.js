@@ -46,34 +46,34 @@ const Footer = () => {
     <>
       <FooterContainer>
         <div>
-          <a
+          {/* <a
             href="https://www.facebook.com/profile.php?id=100070850827354"
             target="_blank"
             rel="noreferrer"
             aria-label="facebook"
           >
             <Icon className="bi bi-facebook" />
-          </a>
-          <a
+          </a> */}
+          {/* <a
             href="https://www.instagram.com/kingsautozone_yeg/"
             target="_blank"
             rel="noreferrer"
             aria-label="instagram"
           >
             <Icon className="bi bi-instagram" />
-          </a>
-          <a
+          </a> */}
+          {/* <a
             href="https://www.google.com/search?q=kings+autozone&sca_esv=4a15b0de3d8e6aa3&rlz=1C1CHBF_enCA931CA931&sxsrf=ADLYWIL9htqEBbmwf4wAYyOG7RwrGSfHzQ%3A1715151286619&ei=tiE7ZqW9JbSjptQPgtSZgAo&ved=0ahUKEwil8LK5vP2FAxW0kYkEHQJqBqAQ4dUDCBA&uact=5&oq=kingsautozone&gs_lp=Egxnd3Mtd2l6LXNlcnAiDWtpbmdzYXV0b3pvbmUyDhAuGIAEGLADGMcBGK8BMgkQABiwAxgIGB4yCRAAGLADGAgYHjIJEAAYsAMYCBgeMgkQABiwAxgIGB4yCRAAGLADGAgYHjIJEAAYsAMYCBgeMgkQABiwAxgIGB4yCRAAGLADGAgYHjIJEAAYsAMYCBgeSMMEUABYAHAAeACQAQCYAUygAUyqAQExuAEDyAEAmAIBoAJPmAMA4gMFEgExIECIBgGQBgqSBwExoAfkCA&sclient=gws-wiz-serp#lrd=0x53a01f28a8a42e49:0xd5f3529b268fdf97,1,,,,"
             target="_blank"
             rel="noreferrer"
             aria-label="google"
           >
             <Icon className="bi bi-google" />
-          </a>
+          </a> */}
           <a
             target="_blank"
             rel="noreferrer"
-            href="mailto:Kingsautozone@gmail.com"
+            href="mailto:306detailers@gmail.com"
             aria-label="email"
           >
             <Icon className="bi bi-envelope-plus" />
@@ -89,7 +89,7 @@ const Footer = () => {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://www.tiktok.com/@kingsautozone_yeg"
+            href="https://www.tiktok.com/@davidgill_306?_t=8mSt9NDS6wI&_r=1"
             aria-label="tiktok"
           >
             <Icon className="bi bi-tiktok" />
