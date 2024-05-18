@@ -64,8 +64,16 @@ html {
     max-width: 80vh;
 }
 
-
-
+@media (min-width:1300px) {
+  .aboutus-padding{
+  padding-left: 150px;
+  padding-right: 150px;
+}
+}
+.aboutus-padding{
+  padding-left: 60px;
+  padding-right: 60px;
+}
 
 
 

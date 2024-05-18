@@ -41,10 +41,10 @@ const LinksStyle = styled.a`
 const BookButtonStyle = styled(Button)`
   color: black;
   margin-left: 16px;
-  background: #e0bd01;
+  background: #079765;
   white-space: nowrap;
   &:hover {
-    background: #c5a703;
+    background: #09B177;
   }
 `;
 
@@ -74,11 +74,6 @@ const AppNavBar = (props) => {
         <ListItem>
           <ListItemButtonStyle href="#Packages" sx={{ textAlign: "center" }}>
             <ListItemText primary="Packages" />
-          </ListItemButtonStyle>
-        </ListItem>
-        <ListItem>
-          <ListItemButtonStyle href="#CPackages" sx={{ textAlign: "center" }}>
-            <ListItemText primary="Ceramic Coating" />
           </ListItemButtonStyle>
         </ListItem>
         <ListItem>
@@ -135,7 +130,6 @@ const AppNavBar = (props) => {
             style={{ marginLeft: "auto" }}
           >
             <LinksStyle href="#About">About</LinksStyle>
-            <LinksStyle href="#CPackages">Ceramic Coating </LinksStyle>
             <LinksStyle href="#Packages">Packages</LinksStyle>
             <LinksStyle href="#Services">Services</LinksStyle>
             <LinksStyle href="tel:+13065413358">Call us</LinksStyle>

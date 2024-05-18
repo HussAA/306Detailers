@@ -72,7 +72,7 @@ const AboutUs = () => {
         Kings Autozone is a small auto detailing business providing the best 
         quality services related to auto detailing.
       </SectionDescription>
-      <div className="container-lg px-5">
+      <div className="container-lg aboutus-padding">
         <div className="row">
           <LeftHalf className="col-md-5">
             <Title className="row">

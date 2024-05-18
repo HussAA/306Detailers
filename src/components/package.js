@@ -56,6 +56,7 @@ const PricingColumnCenter = styled.div`
 const PricingCard = styled.div`
   width: auto;
   padding: 13px;
+  padding-bottom: 30px;
 `;
 const PricingCardCenter = styled.div`
   width: auto;
@@ -78,7 +79,7 @@ const PricingPopular = styled.button`
   color: white;
   border: 0 solid green;
   right: 20px;
-  background: #5d9310;
+  background: #079765;
 
   &:hover {
     cursor: default;
@@ -267,7 +268,7 @@ const Pricing = () => {
               <div className="row">
                 <PricingFeatures className="col">
                   <Check src={Checkmark} alt="Checkmark"/>
-                  Ceramic coating (5 years)
+                  Ceramic coating (2-3 years)
                 </PricingFeatures>
               </div>
             </PricingCard>
@@ -310,7 +311,7 @@ const Pricing = () => {
               <div className="row">
                 <PricingFeaturesCenter className="col">
                   <Check alt="Checkmark" src={Checkmark} />
-                  Ceramic coating (5 years)
+                  Graphene Coating (3-5 Years)
                 </PricingFeaturesCenter>
               </div>
             </PricingCardCenter>

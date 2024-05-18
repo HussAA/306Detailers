@@ -2,7 +2,6 @@ import AppNavBar from "../components/Navbar";
 import * as React from "react";
 import styled from "@emotion/styled";
 import AboutUs from "../components/About";
-import Packages from "../components/Pricing";
 import Services from "../components/Services";
 import LandingSection from "../components/LandingSection";
 import Gallery from "../components/Gallery";
@@ -42,17 +41,10 @@ const IndexPage = () => {
         <section id="About" style={{ marginTop: "80px", paddingTop: "80px" }}>
           <AboutUs />
         </section>
-        <section>
-          <div
-            id="Packages"
-            style={{ marginTop: "100px", paddingTop: "120px" }}
-          >
-            <Packages />
-          </div>
-        </section>
+
 
         <PricingSection
-          id="CPackages"
+          id="Packages"
           style={{ marginTop: "100px", paddingTop: "120px" }}
         >
           <PricingWash />

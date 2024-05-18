@@ -1,6 +1,7 @@
 import React from "react";
 import { styled } from "styled-components";
 import Checkmark from "../images/checkmark.png";
+import AddOn from "./AddOn";
 const PackageTitle = styled.div`
   font-size: 12pt;
   color: white;
@@ -77,7 +78,7 @@ const PricingPopular = styled.button`
   color: white;
   border: 0 solid green;
   right: 20px;
-  background: #5d9310;
+  background: #079765;
 
   &:hover {
     cursor: default;
@@ -236,8 +237,7 @@ const PricingWash = () => {
               </div>
               <div className="row">
                 <PricingCoverage className="col">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod.
+                Ideal for a basic detail of your vehicle.
                 </PricingCoverage>
               </div>
               <hr />
@@ -310,8 +310,7 @@ const PricingWash = () => {
               </div>
               <div className="row">
                 <PricingCoverageCenter className="col">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod.
+                Ideal for a thorough interior detailing experience.
                 </PricingCoverageCenter>
               </div>
               <PricingHr />
@@ -355,8 +354,7 @@ const PricingWash = () => {
               </div>
               <div className="row">
                 <PricingCoverage className="col">
-                  Ceramic Coating With Paint Correction And Complete Interior
-                  Detail.
+                Ideal for a smoother exterior with added engine cleaning.
                 </PricingCoverage>
               </div>
               <hr />
@@ -378,18 +376,13 @@ const PricingWash = () => {
                   Clay bar treatment
                 </PricingFeatures>
               </div>
-              <div className="row">
-                <PricingFeatures className="col">
-                  <Check alt="Checkmark" src={Checkmark} />
-                  One step polish
-                </PricingFeatures>
-              </div>
               <br />
             </PricingCard>
             <Note>$999 for 7 seater</Note>
           </PricingColumn>
         </div>
       </div>
+      <AddOn/>
     </>
   );
 };

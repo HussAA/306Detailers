@@ -15,7 +15,7 @@ const Title = styled.div`
     height: 2px;
     bottom: 0px;
     left: calc(50% - 25px);
-    background: #e0bd01;
+    background: #079765;
   }
 `;
 const Services = () => {
@@ -54,9 +54,23 @@ const Services = () => {
             price={["$50"]}
           />
           <ServicesArray
-            title={["Power Polish"]}
+            title={["Odor Removal"]}
             text={[
-              "Polishing can remove or disguise scratches, water spots, swirls, stone chips, and other minor damages to your car's paint work.",
+              "Our car detailing service specializes in advanced odor removal techniques, ensuring your vehicle smells fresh and clean by eliminating even the toughest odors at their source.",
+            ]}
+            price={["$$$"]}
+          />
+          <ServicesArray
+            title={["Headlight Restoration"]}
+            text={[
+              "Headlight restoration involves the process of renewing and enhancing the clarity and effectiveness of cloudy or faded vehicle headlights.",
+            ]}
+            price={["$$$"]}
+          />
+          <ServicesArray
+            title={["Decal Removal"]}
+            text={[
+              "Our expert decal removal service gently eliminates old, faded, or unwanted decals from your vehicle, restoring its original clean finish without damaging the paint.",
             ]}
             price={["$$$"]}
           />
@@ -76,7 +90,7 @@ const ServicesArray = ({ text, title, price }) => {
           {text.map((v, i) => {
             return (
               <React.Fragment key={i}>
-                <div className="col-md-6 col-lg-3 p-3">
+                <div className="col-md-6 col-lg-4 p-3">
                   <div className="icon"><i className="bi bi-cart-plus-fill"/></div>
                   <Title className="mb-3 pb-2">{title}</Title>
                   <div className="">{v}</div>

@@ -43,7 +43,7 @@ const SloganPortfolio = () => {
         <Overlay className="shadow">
         <Slogan>
             Regina, SK Canada <br />
-            <div style={{fontSize:"15px", fontWeight:"500"}}>**Pick Up/Delivery or Drop Off/Pick up**</div>
+            <div style={{fontSize:"15px", fontWeight:"500"}}>**Mobile & Drop Off/Pick up**</div>
           </Slogan>
         </Overlay>
       </div>
@@ -73,6 +73,14 @@ const Masthead = styled.div`
     padding-bottom: 0;
     margin-left: 75px;
     margin-right: 75px;
+  }
+  @media (min-width: 1400.6px) {
+    height: 80vh;
+    min-height: 40rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+    margin-left: 120px;
+    margin-right: 120px;
   }
   @media (max-width: 730px) {
     height: 35vh;
