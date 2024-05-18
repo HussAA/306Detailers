@@ -12,7 +12,6 @@ const PackageTitle = styled.div`
   }
 `;
 const SectionHeading = styled.div`
-  padding-top: 80px;
   font-size: 35pt;
   color: white;
   text-align: center;
@@ -39,7 +38,6 @@ const PricingColumn = styled.div`
   padding-bottom: 15px;
   @media (max-width: 991.9px) {
     margin-bottom: 30px;
-
   }
 `;
 const PricingColumnCenter = styled.div`
@@ -56,6 +54,7 @@ const PricingColumnCenter = styled.div`
 const PricingCard = styled.div`
   width: auto;
   padding: 13px;
+  padding-bottom: 30px;
 `;
 const PricingCardCenter = styled.div`
   width: auto;
@@ -199,7 +198,7 @@ const ListStyle2 = styled.div`
 const Note = styled.div`
   text-align: center;
   font-size: 17px;
-  color: #6F6F6F;
+  color: #6f6f6f;
   padding-bottom: 10px;
   padding-top: 20px;
   position: absolute;
@@ -210,13 +209,14 @@ const Note = styled.div`
   @media (max-width: 991.1px) {
     margin-top: 35px;
   }
-
 `;
-const Pricing = () => {
+const PricingWash = () => {
   return (
     <>
-
-      <SectionHeading>OUR CERAMIC COATING PACKAGES</SectionHeading>
+      <PackageTitle id="Packages" className="text-center text-uppercase">
+        packages
+      </PackageTitle>
+      <SectionHeading>OUR WASH PACKAGES</SectionHeading>
       <SectionDescription>
         Enhance your vehicle's shine and protection with our premium car
         detailing packages, tailored to restore and maintain its pristine
@@ -236,38 +236,57 @@ const Pricing = () => {
               </div>
               <div className="row">
                 <PricingCoverage className="col">
-                  Ceramic Coating Without Paint Correction
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod.
                 </PricingCoverage>
               </div>
               <hr />
               <div className="row">
                 <PricingFeatures className="col">
                   <Check src={Checkmark} alt="Checkmark" />
-                  Exterior hand wash
+                  Full interior deep clean - degrease & steam.
                 </PricingFeatures>
               </div>
               <div className="row">
                 <PricingFeatures className="col">
-                  <Check src={Checkmark} alt="Checkmark"/>
-                  Exterior hand dry
+                  <Check src={Checkmark} alt="Checkmark" />
+                  Interior protectant dressing
                 </PricingFeatures>
               </div>
               <div className="row">
                 <PricingFeatures className="col">
-                  <Check src={Checkmark} alt="Checkmark"/>
-                  Clay bar treatment
+                  <Check src={Checkmark} alt="Checkmark" />
+                  All mats clean
                 </PricingFeatures>
               </div>
               <div className="row">
                 <PricingFeatures className="col">
-                  <Check src={Checkmark} alt="Checkmark"/>
-                  Paint decontamination
+                  <Check src={Checkmark} alt="Checkmark" />
+                  Carpet shampoo
                 </PricingFeatures>
               </div>
               <div className="row">
                 <PricingFeatures className="col">
-                  <Check src={Checkmark} alt="Checkmark"/>
-                  Ceramic coating (5 years)
+                  <Check src={Checkmark} alt="Checkmark" />
+                  Seat shampoo / leather conditioning
+                </PricingFeatures>
+              </div>
+              <div className="row">
+                <PricingFeatures className="col">
+                  <Check src={Checkmark} alt="Checkmark" />
+                  All Glass surface clean
+                </PricingFeatures>
+              </div>
+              <div className="row">
+                <PricingFeatures className="col">
+                  <Check src={Checkmark} alt="Checkmark" />
+                  Deodrize
+                </PricingFeatures>
+              </div>
+              <div className="row">
+                <PricingFeatures className="col">
+                  <Check src={Checkmark} alt="Checkmark" />
+                  Door jambs clean
                 </PricingFeatures>
               </div>
             </PricingCard>
@@ -291,7 +310,8 @@ const Pricing = () => {
               </div>
               <div className="row">
                 <PricingCoverageCenter className="col">
-                  Ceramic Coating With Paint Correction.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod.
                 </PricingCoverageCenter>
               </div>
               <PricingHr />
@@ -303,14 +323,20 @@ const Pricing = () => {
               </div>
               <div className="row">
                 <PricingFeaturesCenter className="col">
-                  <Check alt="Checkmark" src={Checkmark} />2 stage paint correction - compound
-                  and polish
+                  <Check alt="Checkmark" src={Checkmark} />
+                  Exterior hand wash
                 </PricingFeaturesCenter>
               </div>
               <div className="row">
                 <PricingFeaturesCenter className="col">
                   <Check alt="Checkmark" src={Checkmark} />
-                  Ceramic coating (5 years)
+                  Exterior hand dry
+                </PricingFeaturesCenter>
+              </div>
+              <div className="row">
+                <PricingFeaturesCenter className="col">
+                  <Check alt="Checkmark" src={Checkmark} />
+                  Tire and rim shine
                 </PricingFeaturesCenter>
               </div>
             </PricingCardCenter>
@@ -336,62 +362,26 @@ const Pricing = () => {
               <hr />
               <div className="row">
                 <ListStyle2 className="col">
-                  <ArrowStyle2  className="bi bi-arrow-90deg-down" />
+                  <ArrowStyle2 className="bi bi-arrow-90deg-down" />
                   Platinum package, plus
                 </ListStyle2>
               </div>
               <div className="row">
                 <PricingFeatures className="col">
                   <Check alt="Checkmark" src={Checkmark} />
-                  Complete interior deep clean - degrease, steam clean
+                  Engine bay shampoo
                 </PricingFeatures>
               </div>
               <div className="row">
                 <PricingFeatures className="col">
                   <Check alt="Checkmark" src={Checkmark} />
-                  Interior protectant dressing
+                  Clay bar treatment
                 </PricingFeatures>
               </div>
               <div className="row">
                 <PricingFeatures className="col">
                   <Check alt="Checkmark" src={Checkmark} />
-                  Carpet shampoo
-                </PricingFeatures>
-              </div>
-              <div className="row">
-                <PricingFeatures className="col">
-                  <Check alt="Checkmark" src={Checkmark} />
-                  Cloth seat shampoo/ leather
-                </PricingFeatures>
-              </div>{" "}
-              <div className="row">
-                <PricingFeatures className="col">
-                  <Check alt="Checkmark" src={Checkmark} />
-                  seats condition
-                </PricingFeatures>
-              </div>{" "}
-              <div className="row">
-                <PricingFeatures className="col">
-                  <Check alt="Checkmark" src={Checkmark} />
-                  Headliner shampoo
-                </PricingFeatures>
-              </div>{" "}
-              <div className="row">
-                <PricingFeatures className="col">
-                  <Check alt="Checkmark" src={Checkmark} />
-                  All glass surface clean (inside)
-                </PricingFeatures>
-              </div>{" "}
-              <div className="row">
-                <PricingFeatures className="col">
-                  <Check alt="Checkmark" src={Checkmark} />
-                  Deodrize
-                </PricingFeatures>
-              </div>{" "}
-              <div className="row">
-                <PricingFeatures className="col">
-                  <Check alt="Checkmark" src={Checkmark} />
-                  Door jambs clean
+                  One step polish
                 </PricingFeatures>
               </div>
               <br />
@@ -404,4 +394,4 @@ const Pricing = () => {
   );
 };
 
-export default Pricing;
+export default PricingWash;

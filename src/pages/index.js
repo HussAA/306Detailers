@@ -10,6 +10,7 @@ import ScrollArrow from "../components/ScrollButton";
 import Pricing from "../components/package";
 import Footer from "../components/Footer";
 import { Helmet } from "react-helmet";
+import PricingWash from "../components/pricingWash";
 const PricingSection = styled.section`
   background: #1a1a1a;
   padding: 20px 10px 70px 10px;
@@ -23,7 +24,10 @@ const IndexPage = () => {
   return (
     <>
       <Helmet>
-      <meta name="description" content="Transform your vehicle with our premium detailing services." />
+        <meta
+          name="description"
+          content="Transform your vehicle with our premium detailing services."
+        />
         <title>King's Autozone</title>
       </Helmet>
       <header>
@@ -47,9 +51,14 @@ const IndexPage = () => {
           </div>
         </section>
 
-        <PricingSection id="CPackages" style={{ marginTop: "100px", paddingTop: "120px" }}>
+        <PricingSection
+          id="CPackages"
+          style={{ marginTop: "100px", paddingTop: "120px" }}
+        >
+          <PricingWash />
           <Pricing />
         </PricingSection>
+
         <section
           id="Services"
           style={{
@@ -80,4 +89,3 @@ const IndexPage = () => {
 };
 
 export default IndexPage;
-
