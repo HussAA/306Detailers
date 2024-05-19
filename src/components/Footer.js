@@ -54,14 +54,14 @@ const Footer = () => {
           >
             <Icon className="bi bi-facebook" />
           </a> */}
-          {/* <a
-            href="https://www.instagram.com/kingsautozone_yeg/"
+          <a
+            href="https://www.instagram.com/306_detailers?igsh=MWJ2YjZmOXRneDh6ZA%3D%3D&utm_source=qr"
             target="_blank"
             rel="noreferrer"
             aria-label="instagram"
           >
             <Icon className="bi bi-instagram" />
-          </a> */}
+          </a>
           {/* <a
             href="https://www.google.com/search?q=kings+autozone&sca_esv=4a15b0de3d8e6aa3&rlz=1C1CHBF_enCA931CA931&sxsrf=ADLYWIL9htqEBbmwf4wAYyOG7RwrGSfHzQ%3A1715151286619&ei=tiE7ZqW9JbSjptQPgtSZgAo&ved=0ahUKEwil8LK5vP2FAxW0kYkEHQJqBqAQ4dUDCBA&uact=5&oq=kingsautozone&gs_lp=Egxnd3Mtd2l6LXNlcnAiDWtpbmdzYXV0b3pvbmUyDhAuGIAEGLADGMcBGK8BMgkQABiwAxgIGB4yCRAAGLADGAgYHjIJEAAYsAMYCBgeMgkQABiwAxgIGB4yCRAAGLADGAgYHjIJEAAYsAMYCBgeMgkQABiwAxgIGB4yCRAAGLADGAgYHjIJEAAYsAMYCBgeSMMEUABYAHAAeACQAQCYAUygAUyqAQExuAEDyAEAmAIBoAJPmAMA4gMFEgExIECIBgGQBgqSBwExoAfkCA&sclient=gws-wiz-serp#lrd=0x53a01f28a8a42e49:0xd5f3529b268fdf97,1,,,,"
             target="_blank"
