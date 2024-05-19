@@ -27,7 +27,7 @@ const IndexPage = () => {
           name="description"
           content="Transform your vehicle with our premium detailing services."
         />
-        <title>King's Autozone</title>
+        <title>306 Detailers</title>
       </Helmet>
       <header>
         <section style={{ minHeight: "100px" }}>
