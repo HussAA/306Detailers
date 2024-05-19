@@ -69,7 +69,7 @@ const AboutUs = () => {
       </SectionTitles>
       <SectionHeading>WHO WE ARE</SectionHeading>
       <SectionDescription>
-        Kings Autozone is a small auto detailing business providing the best 
+        306 Detailers is a small auto detailing business providing the best 
         quality services related to auto detailing.
       </SectionDescription>
       <div className="container-lg aboutus-padding">
